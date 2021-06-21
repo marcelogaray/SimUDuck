@@ -15,9 +15,7 @@ public class MiniDuckSimulator {
         Duck modelDuck = new ModelDuck();
         modelDuck.performFly();
         modelDuck.display();
-        // Change this duck's fly behavior on the fly!
         modelDuck.setFlyBehavior(new FlyRocketPowered());
-        System.out.println("interface (behavior) should now be changed to FlyRocketPowered...");
         modelDuck.performFly();
     }
 }
