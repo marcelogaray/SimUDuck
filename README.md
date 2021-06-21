@@ -27,8 +27,8 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+  <a href="https://dokumen.pub/img/200x200/head-first-design-patterns-building-extensible-and-maintainable-object-oriented-software-2nbsped-149207800x-9781492078005-v-6857883.jpg">
+    <img src="https://dokumen.pub/img/200x200/head-first-design-patterns-building-extensible-and-maintainable-object-oriented-software-2nbsped-149207800x-9781492078005-v-6857883.jpg" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">Best-README-Template</h3>
