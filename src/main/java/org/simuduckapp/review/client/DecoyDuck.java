@@ -1,4 +1,4 @@
-package org.simuduckapp.review;
+package org.simuduckapp.review.client;
 
 public class DecoyDuck extends Duck{
     @Override

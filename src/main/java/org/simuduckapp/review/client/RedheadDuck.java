@@ -1,19 +1,17 @@
-package org.simuduckapp.review;
+package org.simuduckapp.review.client;
 
 import org.simuduckapp.review.duckbehaviors.flybehavior.FlyWithWings;
 import org.simuduckapp.review.duckbehaviors.quackbehavior.Quack;
 
-public class MallardDuck extends Duck {
-    private final Quack quackBehavior;
-    private final FlyWithWings flyBehavior;
+public class RedheadDuck extends Duck{
 
-    public MallardDuck() {
+    public RedheadDuck(){
         quackBehavior = new Quack();
         flyBehavior = new FlyWithWings();
     }
 
     @Override
     public void display() {
-        System.out.println("looks like a mallard");
+        System.out.println("looks like a redhead");
     }
 }

@@ -1,24 +1,27 @@
-package org.simuduckapp.review;
+package org.simuduckapp.review.client;
 
 import org.simuduckapp.review.duckbehaviors.FlyBehavior;
 import org.simuduckapp.review.duckbehaviors.QuackBehavior;
 
 public abstract class Duck {
-    private FlyBehavior flyBehavior;
-    private QuackBehavior quackBehavior;
+    FlyBehavior flyBehavior;
+    QuackBehavior quackBehavior;
 
+    public Duck(){
+
+    }
     public abstract void display();
 
-    public void swim() {
-        System.out.println("All ducks float, even decoys!");
+    public void performFly() {
+        flyBehavior.fly();
     }
 
     public void performQuack() {
         quackBehavior.quack();
     }
 
-    public void performFly() {
-        flyBehavior.fly();
+    public void swim() {
+        System.out.println("All ducks float, even decoys!");
     }
 
     public void setFlyBehavior(FlyBehavior fb) {
