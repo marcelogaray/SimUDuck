@@ -1,17 +1,13 @@
 package org.simuduckapp.review;
 
 public abstract class Duck {
-    public String quack() {
-        return "quack";
-    }
+    abstract void quack();
 
     public void swim() {
         System.out.println("Swimming Main Duck");
     }
 
-    abstract String display();
+    abstract void display();
 
-    public void fly(){
-        System.out.println("Flying ducks!!!");
-    }
+    abstract void fly();
 }

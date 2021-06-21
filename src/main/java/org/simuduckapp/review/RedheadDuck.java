@@ -1,7 +1,6 @@
 package org.simuduckapp.review;
 
-public class MallardDuck extends Duck{
-
+public class RedheadDuck extends Duck{
     @Override
     void quack() {
         //pending
@@ -9,11 +8,11 @@ public class MallardDuck extends Duck{
 
     @Override
     void display() {
-        System.out.println("looks like a mallard");
+        System.out.println("looks like a redhead");
     }
 
     @Override
     void fly() {
-        //pending
+        //Pending
     }
 }
