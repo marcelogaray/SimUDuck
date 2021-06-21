@@ -1,12 +1,6 @@
 package org.simuduckapp.review;
 
 public class RedheadDuck extends Duck implements Flyable, Quackable{
-
-    @Override
-    void display() {
-        System.out.println("looks like a redhead");
-    }
-
     @Override
     public void fly() {
         //Pending
@@ -15,5 +9,10 @@ public class RedheadDuck extends Duck implements Flyable, Quackable{
     @Override
     public void quack() {
         //pending
+    }
+
+    @Override
+    public void display() {
+        System.out.println("looks like a redhead");
     }
 }

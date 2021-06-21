@@ -3,7 +3,7 @@ package org.simuduckapp.review;
 public class RubberDuck extends Duck implements Quackable{
 
     @Override
-    void display() {
+    public void display() {
         System.out.println("looks like a rubberduck");
     }
 
