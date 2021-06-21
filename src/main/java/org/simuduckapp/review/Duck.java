@@ -10,4 +10,8 @@ public abstract class Duck {
     }
 
     abstract String display();
+
+    public void fly(){
+        System.out.println("Flying ducks!!!");
+    }
 }
