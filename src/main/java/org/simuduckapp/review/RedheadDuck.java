@@ -1,10 +1,6 @@
 package org.simuduckapp.review;
 
-public class RedheadDuck extends Duck{
-    @Override
-    void quack() {
-        //pending
-    }
+public class RedheadDuck extends Duck implements Flyable, Quackable{
 
     @Override
     void display() {
@@ -12,7 +8,12 @@ public class RedheadDuck extends Duck{
     }
 
     @Override
-    void fly() {
+    public void fly() {
         //Pending
+    }
+
+    @Override
+    public void quack() {
+        //pending
     }
 }

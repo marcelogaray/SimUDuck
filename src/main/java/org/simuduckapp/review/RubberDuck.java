@@ -1,11 +1,6 @@
 package org.simuduckapp.review;
 
-public class RubberDuck extends Duck{
-
-    @Override
-    public void quack(){
-        System.out.println("Squeak");
-    }
+public class RubberDuck extends Duck implements Quackable{
 
     @Override
     void display() {
@@ -13,7 +8,7 @@ public class RubberDuck extends Duck{
     }
 
     @Override
-    void fly(){
-        //override to do nothing
+    public void quack(){
+        System.out.println("Squeak");
     }
 }
